@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Vue Tutorial" name="k-yama"/>
+  <UserInfo name="山田 太郎" age=25 />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import UserInfo from './components/UserInfo.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    UserInfo
   }
 }
 </script>
