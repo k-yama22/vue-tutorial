@@ -27,7 +27,7 @@ export default {
         .get("http://localhost:3000/users")
         .then((res) => {
           console.log(res);
-          this.users = res.data.users;
+          this.users = res.data;
         })
         .catch((err) => {
           console.log(err);
