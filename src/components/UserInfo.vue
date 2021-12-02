@@ -8,17 +8,16 @@
 
 <script>
 export default {
-  name: 'UserInfo',
+  name: "UserInfo",
   props: {
     name: String,
-    age: Number
-  }
-}
+    age: Number,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .name {
   color: #42b983;
 }
